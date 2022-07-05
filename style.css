@@ -1,0 +1,59 @@
+/*
+Theme Name: Mademoiselle
+Author: Marko Todorovic
+Description: For us health is very important because of that we are here to provide best information about health and our products.
+Tags: Responsive,Fast,Beautiful,Well organized Website
+Version: 1.0
+Requires at least: 5.0
+Tested up to: 5.4
+Requires PHP: 7.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: Mademoiselle
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+.about-items p{
+    margin-bottom:50px;
+}
+div.mc4wp-response div.mc4wp-alert.mc4wp-error{
+    margin-top:20px;
+    padding:15px;
+    background-color:rgb(221, 81, 81);
+}
+
+ div.mc4wp-response div.mc4wp-alert.mc4wp-notice{
+    margin-top:20px;
+    padding:15px;
+    background-color:rgb(154, 223, 151);
+ }
+ div.mc4wp-response div.mc4wp-alert.mc4wp-success {
+    margin-top:20px;
+    padding:15px;
+    background-color:rgb(152, 221, 150);
+ }
+
+ .error-page {
+    background-image: url("./Frontend/img/error.png");
+   background-size: cover;
+   background-position:top center;
+  }
+
+.pagination {
+  display: flex;
+  justify-content: center;
+}
+.pagination .nav-links{
+   margin-bottom:50px;
+}
+.pagination .nav-links a
+{
+   text-decoration: none;
+   color: rgb(187, 186, 186);
+}
+.pagination .nav-links a.page-numbers{
+   padding: 7px;
+}
+.pagination .nav-links span.current{
+   color:black;
+}
